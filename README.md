@@ -32,5 +32,5 @@
 
 - Vídeos e imagens do projeto:
 
-  O vídeo do projeto em funcionamento está no arquivo 'Projeto Montado.mp4'.
-  A imagem 'system.png' é uma print do sistema montado no Tinkercad.
+  1) O vídeo do projeto em funcionamento está no arquivo 'Projeto Montado.mp4'.
+  2) A imagem 'system.png' é uma print do sistema montado no Tinkercad.
