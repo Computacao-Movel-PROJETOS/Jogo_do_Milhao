@@ -34,3 +34,31 @@
 
   1) O vídeo do projeto em funcionamento está no arquivo 'Projeto Montado.mp4'.
   2) A imagem 'system.png' é uma print do sistema montado no Tinkercad.
+
+- Conclusão:
+
+  Para realizar o programa, primeiro analisamos cada requisito do trabalho. Para fazer as questões, separamos elas em 3 listas diferentes, para separa-las por dificuldade, e mais 3 listas contendo
+  a resposta de cada pergunta. 
+  Após isso, fizemos para cada requisito uma função , para otimização do nosso jogo. 
+  Separamos as funções da seguinte forma:
+
+  1) uma função para cada menu
+  2) "Mostrar pontuação"
+  3) "Timer/Temporizador"
+  4) "Pular questão"
+  5) "Resetar variáveis iniciais"
+  6) "Iniciar o jogo"
+  7) "Finalizar o jogo"
+  8) "Músicas e efeitos sonoros"
+  9) "Mostrar as questões no LCD"
+  10) "Pegar o peso da questão"
+  11) "Pegar a resposta correta da questão"
+
+  Durante o desenvolvimento, tivemos pequenos problemas em relação a analisar se o jogo estava em andamento ou não. Pois, sempre que apertávamos o botão, a função "Iniciar jogo" era chamada e
+  as perguntas eram chamadas todas de uma vez porque estava tudo dentro da funçaõ "Loop". Com isso, não conseguiamos tentar responder as perguntas. Após o entendimento desse nosso problema,
+  conseguimos ajeitar o programa e deixar ele rodando corretamente.
+  Tivemos um outro problema relacionado à parte de memória dentro do TinkerCad, pois o foco era fazer 20 perguntas de cada nível (e fizemos, porém tivemos que tirar por conta desse problema).
+  Contudo, o trabalhar proposto pelo Prof. Isaac Jesus foi feito corretamente dentro do que foi pedido à nós!
+
+  Esperamos que gostem do nosso jogo, até breve!! 
+  
