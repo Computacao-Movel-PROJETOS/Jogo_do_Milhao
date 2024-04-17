@@ -2,7 +2,7 @@
 
 - Introdução:
   
-  Bem-vindo ao desafio supremo! Você está preparado para testar seus conhecimentos e habilidades neste jogo de perguntas eletrizante? Se sim, então você está prestes a embarcar em uma jornada emocionante rumo ao prêmio máximo de R$ 1.000.000,00!
+  Bem-vindo ao JOGO DO MILHÃO! Você está preparado para testar seus conhecimentos e habilidades neste jogo de perguntas eletrizante? Se sim, então você está prestes a embarcar em uma jornada emocionante!
 
   O desafio é simples, mas não se engane, pois a dificuldade está à altura do prêmio. Aqui está o que você precisa saber:
     1. O jogo consiste em 21 perguntas no total: 7 fáceis valendo 1 ponto cada, 7 médias valendo 2 pontos cada e 7 difíceis valendo 3 pontos cada.
