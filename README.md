@@ -30,6 +30,7 @@
 
   O código está no arquivo 'program.ino', totalmente comentado e explicado.
 
-- Vídeo do projeto:
+- Vídeos e imagens do projeto:
 
   O vídeo do projeto em funcionamento está no arquivo 'Projeto Montado.mp4'.
+  A imagem 'system.png' é uma print do sistema montado no Tinkercad.
