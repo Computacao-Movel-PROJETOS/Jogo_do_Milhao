@@ -16,15 +16,14 @@
 - Metodologia:
 
   1) Plataforma de desenvolvimento: TinkerCad
-  1.1) Linguagem utilizada: C++
-  1.2) Microcontrolador: Arduino Uno
-  2) Componentes eletrônicos utilizados:
-  2.1) Placa de circuito para montagem do projeto
-  2.2) Cabos e resistores, conforme necessário para conexões e limitação de corrente
-  2.3) LED para indicar quando o tempo está acabando
-  2.4) Display LCD para exibir o programa, pontuações e mensagens do jogo
-  2.5) Buzzer para reproduzir músicas e sons para cada ação dentro do jogo
-  2.6) Botões para interação do jogador, como responder perguntas e acionar os pulos
-  2.7) Potenciômetro para ajustar o contraste ou brilho do Display LCD
+  2) Linguagem utilizada: C++
+  3) Microcontrolador: Arduino Uno
+  4) Placa de circuito para montagem do projeto
+  5) Cabos e resistores, conforme necessário para conexões e limitação de corrente
+  6) LED para indicar quando o tempo está acabando
+  7) Display LCD para exibir o programa, pontuações e mensagens do jogo
+  8) Buzzer para reproduzir músicas e sons para cada ação dentro do jogo
+  9) Botões para interação do jogador, como responder perguntas e acionar os pulos
+  10) Potenciômetro para ajustar o contraste ou brilho do Display LCD
 
 - Código:
