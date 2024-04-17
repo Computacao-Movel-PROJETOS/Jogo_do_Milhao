@@ -697,6 +697,14 @@ void sounds(int typeSound){
 // Função responsável por mudar o estado do led
 void led(char STATE){
   digitalWrite(7, STATE);
+  
+  if(state == LOW){
+    state = HIGH;
+  }
+
+  else if(state == HIGH){
+    state = LOW;
+  }
 }
 
 
@@ -717,14 +725,6 @@ void timer(){
   // Se o tempo for igual ou menor que 5, então o led piscará, mudando a cada segundo seu estado.
   if(seconds <= 5){
     led(state);
-
-    if(state == LOW){
-      state = HIGH;
-    }
-
-    else if(state == HIGH){
-      state = LOW;
-    }
   }
 
   // Se o tempo acabar, então ele retornará.
