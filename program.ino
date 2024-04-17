@@ -351,39 +351,17 @@ void skipQuestion(){
 }
 
 
-// Essa função é responsável por apresentar o final do jogo.
-void finalGame(){
-  // Agradecimento por jogar.
-  lcd.clear();
-  lcd.setCursor(2,0);
-  lcd.print("Obrigado por");
-  lcd.setCursor(5,1);
-  lcd.print("jogar!");
-
-  // Música de fim de jogo
-  sounds(0);
-
-  lcd.clear();
-
-  // Mostra a pontuação total.
-  lcd.setCursor(0,0);
-  lcd.print("Pontuacao total:");
-  lcd.setCursor(7,1);
-  lcd.print(pontuation);
-
-  delay(5000);
-
+// Essa função é responsável por apresentar o menú do jogo e resetar as variáveis.
+void startMenu(){
   lcd.clear();
 
   delay(500);
-
-  // Reseta todas as variávels, inclusive a gameStarted para 0, fazendo com que o laço de repetição do jogo pare.
+  
   seconds = 15;
   jumps = 3;
   pontuation = 0;
   gameStarted = 0;
 
-  // Menú inicial.
   lcd.setCursor(1, 0);
   lcd.print(F("JOGO DO MILHAO"));
   lcd.setCursor(0, 1);
@@ -391,7 +369,38 @@ void finalGame(){
 }
 
 
-// Essa função é responsável por mostrar a tela de vitória do jogador
+// Essa função é responsável por apresentar a pontuação final.
+void showPontuation(){
+  lcd.clear();
+
+  lcd.setCursor(0,0);
+  lcd.print("Pontuacao total:");
+  lcd.setCursor(7,1);
+  lcd.print(pontuation);
+
+  delay(5000);
+}
+
+
+// Essa função é responsável por apresentar o final do jogo.
+void finalGame(){
+  // Agradecimento.
+  lcd.clear();
+  lcd.setCursor(2,0);
+  lcd.print("Obrigado por");
+  lcd.setCursor(5,1);
+  lcd.print("jogar!");
+
+  // Música de derrota.
+  sounds(0);
+
+  // Mostra a pontuação e o menú inicial
+  showPontuation();  
+  startMenu();
+}
+
+
+// Essa função é responsável por apresentar a tela de vitória do jogo.
 void showWinner(){
   lcd.clear();
   lcd.setCursor(7,0);
@@ -406,34 +415,12 @@ void showWinner(){
   lcd.setCursor(1,1);
   lcd.print("acertou todas!");
 
-  // Música de vitória
+  // Música de vitória.
   sounds(4);
 
-  lcd.clear();
-
-  // Mostra a pontuação total
-  lcd.setCursor(0,0);
-  lcd.print("Pontuacao total:");
-  lcd.setCursor(7,1);
-  lcd.print(pontuation);
-
-  delay(5000);
-
-  lcd.clear();
-
-  delay(500);
-
-  // Reseta todas as variávels, inclusive a gameStarted para 0, fazendo com que o laço de repetição do jogo pare.
-  seconds = 15;
-  jumps = 3;
-  pontuation = 0;
-  gameStarted = 0;
-
-  // Menú inicial
-  lcd.setCursor(1, 0);
-  lcd.print(F("JOGO DO MILHAO"));
-  lcd.setCursor(0, 1);
-  lcd.print(F("por Babi & Bruno"));
+  // Mostra a pontuação e o menú inicial
+  showPontuation();  
+  startMenu();
 }
 
 
