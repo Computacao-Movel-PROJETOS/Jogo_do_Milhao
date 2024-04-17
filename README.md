@@ -29,3 +29,7 @@
 - Código:
 
   O código está no arquivo 'program.ino', totalmente comentado e explicado.
+
+- Vídeo do projeto:
+
+  O vídeo do projeto em funcionamento está no arquivo 'Projeto Montado.mp4'.
