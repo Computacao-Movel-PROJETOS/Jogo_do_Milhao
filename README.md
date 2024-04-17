@@ -27,3 +27,5 @@
   10) Potenciômetro para ajustar o contraste ou brilho do Display LCD
 
 - Código:
+
+  O código está no arquivo 'program.ino', totalmente comentado e explicado.
