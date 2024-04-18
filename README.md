@@ -36,8 +36,6 @@
   2) A imagem 'system.png' é uma print do sistema montado no TinkerCad.
   
   <img src="system.png" alt="Sistema montado no TinkerCad.">
-  
-  (Projeto Montado.mp4)
 
 - Conclusão:
 
