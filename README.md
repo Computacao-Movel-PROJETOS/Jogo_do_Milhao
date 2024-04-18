@@ -34,8 +34,10 @@
 
   1) O vídeo do projeto em funcionamento está no arquivo 'Projeto Montado.mp4'.
   2) A imagem 'system.png' é uma print do sistema montado no TinkerCad.
+  
   <img src="system.png" alt="Sistema montado no TinkerCad.">
-  <video src="Projeto Montado.mp4" alt="Vídeo do projeto montado.">
+  
+  (Projeto Montado.mp4)
 
 - Conclusão:
 
