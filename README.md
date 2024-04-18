@@ -54,9 +54,13 @@
   11) "Pegar a resposta correta da questão"
 
   Durante o desenvolvimento, tivemos pequenos problemas em relação a analisar se o jogo estava em andamento ou não. Pois, sempre que apertávamos o botão, a função "Iniciar jogo" era chamada e as perguntas eram chamadas todas de uma vez sem a necessidade de uma ação do jogador.
+
   Descobrimos que a causa desse problema eram duas. Uma delas era o fato de termos criado uma função separada da função principal contendo a lógica do andamento do jogo. Na toria isso deveria funcionar, mas acreditamos que possa ser algum erro do TinkerCad, já que as funções "setup" e "loop" são programadas internamente no TinkerCad e não conseguimos editá-las. Para resolver isso, removemos a função do jogo e colocamos suas lógicas diretamente na função principal "loop", fazendo com que o andamento do jogo rodasse normalmente.
+
   O outro problema foi em relação a obter o estado do botão, pois estávamos capturando seu estado através de uma variável. Quando pressionávamos o botão, ele acabava entrando dentro de várias condições criadas dentro da função. Por exemplo: pressionamos o botão. Dentro da função principal, existem dois condicionais, um para se o botão se encontra pressionado e outro para que não. Por algum motivo, o programa entrava nas duas condicionais durante uma única execução, como se o estado do botão fosse alterado no meio da execução sem a chamada da variável. Acreditamos que isso também possa ser algum problema do TinkerCad, já que normalmente isso não ocorre. Para resolver isso, bastou removermos a variável e substiturimos a variável das condições pela própria função de captação do estado do botão.
+
   Outro problema que obtemos foi relacionado à parte de memória dentro do TinkerCad. A ideia inicial era fazer 20 perguntas por dificuldade, porém ficamos sem memória suficiente para deixá-las na memória do programa, e para realizar este trabalho não poderíamos colocá-las em nenhum meio externo. Por isso, tivemos que deixar apenas 7 perguntas para cada dificuldade.
+
   Contudo, o trabalhar proposto pelo Prof. Isaac Jesus foi feito corretamente dentro do que foi pedido à nós!
 
   Esperamos que gostem do nosso jogo, até breve!! 
